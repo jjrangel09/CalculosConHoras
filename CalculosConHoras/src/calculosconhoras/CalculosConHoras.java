@@ -22,7 +22,7 @@ public class CalculosConHoras {
         int semanas;
         int temporal;
         int hrDia = 24;
-        int hrSemana = 168;
+        int hrSemana = (hrDia*7);
         
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca el número de horas (entero): ");
